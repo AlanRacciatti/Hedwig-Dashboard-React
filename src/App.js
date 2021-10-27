@@ -2,7 +2,6 @@ import Sidebar from './components/Sidebar/Sidebar'
 import Topbar from './components/Topbar/Topbar'
 import './app.css';
 
-
 const App = () => {
   return(
     <div id="wrapper">
