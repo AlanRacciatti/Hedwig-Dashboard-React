@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-import MainCard from "./components/main-data-card"
+import MainCard from "./components/MainDataCards/main-data-card"
 
 
 const App = () => {
