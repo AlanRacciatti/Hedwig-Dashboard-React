@@ -1,0 +1,37 @@
+.bg-gradient-primary {
+    background-color: #D48A38;
+    background-image: none  
+}
+
+.btn-primary:hover {
+    background-color: #F48A38;
+}
+
+.border-hedwig {
+    border-left: 10px solid #5A8DA9;
+    border-right: 10px solid #5A8DA9;
+}
+
+.bg-hedwig {
+    background-color: #5A8DA9;
+}
+.bg-hedwig-sec {
+    background-color: #D48A38;
+}
+
+.text-hedwig {
+    color: #5A8DA9;
+}
+
+.text-hedwig-sec {
+    color: #D48A38
+}
+
+.text-hedwig-ter {
+    color: #873413;
+}
+
+.navbar {
+    background-color: #5A8DA9;
+    background-image: none;
+}

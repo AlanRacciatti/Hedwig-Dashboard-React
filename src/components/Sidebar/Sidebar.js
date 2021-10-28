@@ -1,11 +1,11 @@
 const Sidebar = () => {
     return(
 
-    <ul className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul className="navbar-nav bg-gradient-primary bg-hedwig-sec sidebar sidebar-dark accordion" id="accordionSidebar">
 
 			<a className="sidebar-brand d-flex align-items-center justify-content-center" href="/">
 				<div className="sidebar-brand-icon">
-					<i className="fas fa-chart-line"></i>
+					<img src="https://res.cloudinary.com/libreria-hedwig/image/upload/v1635375343/Logo-error_a30e6l.png" alt="logo" width="50" />
 				</div>
 				<div className="sidebar-brand-text mx-3">Hedwig</div>
 			</a>
