@@ -1,7 +1,7 @@
 import React from 'react'
 
 const UltimoProducto = (props) => {
-    let rutaImagen = "https://libreria-hedwig.herokuapp.com/img/products/" + props.ultimoProducto.ultimoProducto[0].imagen
+    let rutaImagen = props.ultimoProducto.ultimoProducto[0].imagen
     let rutaProducto = "https://libreria-hedwig.herokuapp.com/products/detalles/" + props.ultimoProducto.ultimoProducto[0].id
     return (
         <div className="col-lg-3 mb-4 text-center">

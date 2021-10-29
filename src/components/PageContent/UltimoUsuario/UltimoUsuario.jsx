@@ -1,7 +1,7 @@
 import React from 'react'
 
 const UltimoUsuario = (props) => {
-    let rutaImagen = "https://libreria-hedwig.herokuapp.com/img/users/" + props.ultimoUsuario.ultimoUsuario[0].imagen
+    let rutaImagen = props.ultimoUsuario.ultimoUsuario[0].imagen
     return (
         <div className="col-lg-3 mb-4 text-center">
             <div className="card shadow mb-4 bg-hedwig text-center">
