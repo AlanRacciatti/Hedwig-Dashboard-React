@@ -107,14 +107,14 @@ const Charts = () => {
     return (
         <div className="row">
             <div className="col-lg-6">
-                <h2  className="text-center">Top libros en compras</h2>
+                <h2  className="text-center">Top autores en compras</h2>
                 <Bar
                     data={dataAutores}
                     options={options}
                 />
             </div>
             <div className="col-lg-6">
-                <h2 className="text-center">Top autores en compras</h2>
+                <h2 className="text-center">Top libros en compras</h2>
                 <Bar
                     data={dataLibros}
                     options={options}
