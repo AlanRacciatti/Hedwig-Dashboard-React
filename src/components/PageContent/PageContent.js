@@ -49,7 +49,7 @@ const ContenidoPagina = () => {
 
 	useEffect(() => {
 
-		fetch("http://libreria-hedwig.herokuapp.com/products/api/v1/info")
+		fetch("https://libreria-hedwig.herokuapp.com/products/api/v1/info")
 		.then(res => res.json())
 		.then(res => { 
 
