@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 const Sidebar = () => {
     return(
 
@@ -13,9 +15,10 @@ const Sidebar = () => {
 			<hr className="sidebar-divider my-0" />
 
 			<li className="nav-item active">
-				<a className="nav-link" href="/">
+				<Link className="nav-link" to="/">
 					<i className="fas fa-fw fa-tachometer-alt"></i>
-					<span>Dashboard</span></a>
+					<span>Dashboard</span>
+				</Link>
 			</li>
 
 			<hr className="sidebar-divider" />
@@ -23,22 +26,24 @@ const Sidebar = () => {
 			<div className="sidebar-heading">Actions</div>
 
 			<li className="nav-item">
-				<a className="nav-link collapsed" href="/">
-					<i className="fas fa-fw fa-folder"></i>
-					<span>Pages</span>
+				<a className="nav-link" href="/">
+					<i className="fas fa-fw fa-chart-area"></i>
+					<span>Charts</span>
 				</a>
 			</li>
 
-			<li className="nav-item">
-				<a className="nav-link" href="/">
-					<i className="fas fa-fw fa-chart-area"></i>
-					<span>Charts</span></a>
+            <li className="nav-item">
+				<Link className="nav-link" to="/products">
+					<i className="fas fa-fw fa-table"></i>
+					<span>Productos</span>
+				</Link>
 			</li>
 
-            <li className="nav-item">
-				<a className="nav-link" href="/">
-					<i className="fas fa-fw fa-table"></i>
-					<span>Tables</span></a>
+			<li className="nav-item">
+				<a target="_blank" rel="noreferrer" className="nav-link collapsed" href="https://app.swaggerhub.com/apis/AlanRacciatti/Hedwig-api/1.0.0">
+					<i className="fas fa-file-alt"></i>
+					<span>Api docs</span>
+				</a>
 			</li>
 
 			<hr className="sidebar-divider d-none d-md-block" />

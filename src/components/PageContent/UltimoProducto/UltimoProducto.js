@@ -18,7 +18,7 @@ const UltimoProducto = (props) => {
                             <div>
                                 <p className="text-white text-center">Este es el último producto que se añadió a la base de datos de Hedwig.</p>
                                 <a className="text-center d-block" href={rutaProducto} id="userDropdown">
-                                    <button className="btn btn-primary border-0 bg-hedwig-sec">Detalles del producto <i class="fas fa-info-circle"></i></button>
+                                    <button className="btn btn-primary border-0 bg-hedwig-sec">Detalles del producto <i className="fas fa-info-circle"></i></button>
                                 </a>
                             </div>
                         </div>

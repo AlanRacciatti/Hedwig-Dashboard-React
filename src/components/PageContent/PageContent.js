@@ -2,6 +2,7 @@ import CardInfo from './CardInfo/CardInfo'
 import CardCategory from './CardCategory/CardCategory'
 import UltimoProducto from './UltimoProducto/UltimoProducto'
 import UltimoUsuario from './UltimoUsuario/UltimoUsuario'
+
 import { useState, useEffect } from 'react'
 
 const moneyFormatter = new Intl.NumberFormat('es-AR', {
@@ -27,8 +28,6 @@ const ContenidoPagina = () => {
 		.then(res => { setUltimoUsuario({ ultimoUsuario: res }) })
 
 	}, [] )
-
-	console.log(ultimoUsuario.ultimoUsuario)
 
 	useEffect(() => {
 

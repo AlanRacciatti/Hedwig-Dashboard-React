@@ -17,7 +17,7 @@ const UltimoUsuario = (props) => {
                             <div>
                                 <p className="text-white text-center">Este es el último usuario que se añadió a la base de datos de Hedwig.</p>
                                 <a className="text-center d-block" href={rutaImagen} id="userDropdown">
-                                    <button className="btn btn-primary border-0 bg-hedwig-sec">Detalles del usuario <i class="fas fa-user"></i></button>
+                                    <button className="btn btn-primary border-0 bg-hedwig-sec">Detalles del usuario <i className="fas fa-user"></i></button>
                                 </a>
                             </div>
                         </div>
