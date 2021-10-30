@@ -29,6 +29,7 @@ function Products() {
             <th scope="col">Título</th>
             <th scope="col">Valoración</th>
             <th scope="col">Oferta (%)</th>
+            <th scope="col">Compras</th>
             <th scope="col">Editorial</th>
             <th scope="col">Autor</th>
             <th scope="col">Genero</th>
@@ -48,6 +49,7 @@ function Products() {
                         <td>{libro.titulo}</td>
                         <td>{libro.valoracion}</td>
                         <td>{libro.oferta}%</td>
+                        <td>{libro.compras}</td>
                         <td>{libro.editorial}</td>
                         <td>{autor[0].nombre}</td>
                         <td>{genero[0].nombre}</td>

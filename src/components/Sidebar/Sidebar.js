@@ -64,7 +64,7 @@ const Sidebar = () => {
 			</li>
 
 			<li className="nav-item">
-				<a target="_blank" rel="noreferrer" className="nav-link collapsed" href="https://app.swaggerhub.com/apis/AlanRacciatti/Hedwig-api/1.0.0">
+				<a target="_blank" rel="noreferrer" className="nav-link collapsed" href="https://app.swaggerhub.com/apis/AlanRacciatti/Hedwig-api/1.0.1">
 					<i className="fas fa-file-alt"></i>
 					<span>Api docs</span>
 				</a>
