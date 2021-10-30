@@ -1,6 +1,30 @@
 import {Link} from 'react-router-dom'
+import {useRef} from 'react'
 
 const Sidebar = () => {
+
+	const navItem1 = useRef();
+	const navItem2 = useRef();
+	const navItem3 = useRef();
+
+	const activeNavItem1 = () => {
+		navItem1.current.className = navItem2.current.className + " active"
+		navItem2.current.className = "nav-item"
+		navItem3.current.className = "nav-item"
+	}
+
+	const activeNavItem2 = () => {
+		navItem2.current.className = navItem2.current.className + " active"
+		navItem1.current.className = "nav-item"
+		navItem3.current.className = "nav-item"
+	}
+
+	const activeNavItem3 = () => {
+		navItem3.current.className = navItem2.current.className + " active"
+		navItem1.current.className = "nav-item"
+		navItem2.current.className = "nav-item"
+	}
+
     return(
 
     <ul className="navbar-nav bg-gradient-primary bg-hedwig-sec sidebar sidebar-dark accordion" id="accordionSidebar">
@@ -14,8 +38,8 @@ const Sidebar = () => {
 
 			<hr className="sidebar-divider my-0" />
 
-			<li className="nav-item active">
-				<Link className="nav-link" to="/">
+			<li ref={navItem1} className="nav-item active">
+				<Link onClick={activeNavItem1} className="nav-link" to="/">
 					<i className="fas fa-fw fa-tachometer-alt"></i>
 					<span>Dashboard</span>
 				</Link>
@@ -23,17 +47,17 @@ const Sidebar = () => {
 
 			<hr className="sidebar-divider" />
 
-			<div className="sidebar-heading">Actions</div>
+			<div className="sidebar-heading">Secciones</div>
 
-			<li className="nav-item">
-				<a className="nav-link" href="/">
+			<li ref={navItem2} className="nav-item">
+				<Link onClick={activeNavItem2} className="nav-link" to="/charts">
 					<i className="fas fa-fw fa-chart-area"></i>
 					<span>Charts</span>
-				</a>
+				</Link>
 			</li>
 
-            <li className="nav-item">
-				<Link className="nav-link" to="/products">
+            <li ref={navItem3} className="nav-item">
+				<Link onClick={activeNavItem3} className="nav-link" to="/products">
 					<i className="fas fa-fw fa-table"></i>
 					<span>Productos</span>
 				</Link>

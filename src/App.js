@@ -2,6 +2,7 @@ import Sidebar from './components/Sidebar/Sidebar'
 import Topbar from './components/Topbar/Topbar'
 import PageContent from './components/PageContent/PageContent'
 import Products from './components/Products/Products'
+import Charts from './components/Charts/Charts'
 
 import {Route, Switch} from 'react-router-dom'
 import './app.css';
@@ -15,8 +16,12 @@ const App = () => {
         <div id="content">
           <Topbar />
           <div className="container-fluid">
-          <Route path="/" component={PageContent} exact={true} />
-          <Route path="/products" component={Products} exact={true} />
+          <Switch>
+            <Route path="/" component={PageContent} exact={true} />
+            <Route path="/products" component={Products} exact={true} />
+            <Route path="/charts" component={Charts} exact={true} />
+            <Route component={PageContent} />
+          </Switch>
           </div>
         </div>
       </div>
