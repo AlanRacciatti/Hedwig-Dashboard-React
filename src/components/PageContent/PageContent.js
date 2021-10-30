@@ -49,7 +49,7 @@ const ContenidoPagina = () => {
 
 	useEffect(() => {
 
-		fetch("https://libreria-hedwig.herokuapp.com/products/api/v1/info")
+		fetch("http://libreria-hedwig.herokuapp.com/products/api/v1/info")
 		.then(res => res.json())
 		.then(res => { 
 
@@ -83,10 +83,12 @@ const ContenidoPagina = () => {
 
 			setCategorias({ categorias: categoriasLibros })
 
+			console.log(categoriasLibros)
 		})
 		.catch(() => setErrors({ hasError: true }))
 
 	}, [] )
+
 
     return (
 		<div className="container-fluid">
@@ -147,11 +149,13 @@ const ContenidoPagina = () => {
 					<div className="card-body">
 						<div className="row">
 							{ categorias && categorias.categorias.map((categoria, i) => {
+								console.log(categoria)
 								return (
 									<CardCategory
 										key = {i} 
 										categoria = {categoria[0]}
 										cantidad = {categoria[1]}
+										id = {categoria[2]}
 									/>
 								)
 							}) }

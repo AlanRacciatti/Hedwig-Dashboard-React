@@ -5,7 +5,7 @@ const UltimoProducto = (props) => {
     let rutaProducto = "https://libreria-hedwig.herokuapp.com/products/detalles/" + props.ultimoProducto.ultimoProducto[0].id
     return (
         <div className="col-lg-3 mb-4 text-center">
-            <div className="card shadow mb-4 bg-hedwig text-center">
+            <div className="card shadow mb-4 bg-hedwig text-center h-100">
                 <div className="card-header py-3 bg-hedwig">
                     <h6 className="m-0 font-weight-bold text-white">Último producto agregado</h6>
                 </div>

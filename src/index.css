@@ -7,6 +7,26 @@
     background-color: #F48A38;
 }
 
+.link-hedwig {
+    color: #858796;
+    position: relative;
+    z-index: 10;
+}
+
+.link-hedwig:hover {
+    color: #858796;
+    text-decoration: none;
+    z-index: 20;
+}
+
+.link-hedwig:hover .card{
+    background-color: #F48A38;
+    color: #fff;
+    border: 1px solid #F48A38;
+    transform: scale(1.2);
+    transition: all .3s
+}
+
 .border-hedwig {
     border-left: 10px solid #5A8DA9;
     border-right: 10px solid #5A8DA9;

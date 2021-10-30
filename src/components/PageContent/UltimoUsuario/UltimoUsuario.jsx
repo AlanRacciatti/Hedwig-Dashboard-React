@@ -4,7 +4,7 @@ const UltimoUsuario = (props) => {
     let rutaImagen = props.ultimoUsuario.ultimoUsuario[0].imagen
     return (
         <div className="col-lg-3 mb-4 text-center">
-            <div className="card shadow mb-4 bg-hedwig text-center">
+            <div className="card shadow mb-4 bg-hedwig text-center h-100">
                 <div className="card-header py-3 bg-hedwig">
                     <h6 className="m-0 font-weight-bold text-white">Último usuario agregado</h6>
                 </div>
