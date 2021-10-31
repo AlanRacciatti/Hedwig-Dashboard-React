@@ -21,6 +21,7 @@ function Products() {
     }, [])
 
     return (
+    <div className="table-responsive">
     <table className="table">
         <thead>
             <tr>
@@ -60,6 +61,7 @@ function Products() {
             }
         </tbody>
     </table>
+    </div>
     )
 }
 

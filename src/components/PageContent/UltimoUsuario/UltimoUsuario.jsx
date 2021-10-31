@@ -12,7 +12,7 @@ const UltimoUsuario = (props) => {
                     <div className="px-3 text-center">
                         <div className="col-lg-12 mb-4 bg-hedwig text-center">
                             <h4 className="text-center text-white">{props.ultimoUsuario.ultimoUsuario[0].nombre}</h4>
-                            <img className="text-center d-block m-auto book-dashboard border-hedwig" src={rutaImagen} width="200" alt="libro" />
+                            <img className="text-center d-block m-auto book-dashboard border-hedwig" src={rutaImagen} width="100%" alt="libro" />
                             <h6 className="text-center my-2 text-white">{props.ultimoUsuario.ultimoUsuario[0].email}</h6>
                             <div>
                                 <p className="text-white text-center">Este es el último usuario que se añadió a la base de datos de Hedwig.</p>

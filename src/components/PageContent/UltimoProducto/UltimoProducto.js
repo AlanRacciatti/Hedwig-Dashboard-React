@@ -13,7 +13,7 @@ const UltimoProducto = (props) => {
                     <div className="px-3 text-center">
                         <div className="col-lg-12 mb-4 bg-hedwig text-center">
                             <h4 className="text-center text-white">{props.ultimoProducto.ultimoProducto[0].titulo}</h4>
-                            <img className="text-center d-block m-auto book-dashboard border-hedwig" src={rutaImagen} width="200" alt="libro" />
+                            <img className="text-center d-block m-auto book-dashboard border-hedwig" src={rutaImagen} width="100%" alt="libro" />
                             <h4 className="mt-4 text-center text-white">$ {props.ultimoProducto.ultimoProducto[0].precio}</h4>
                             <div>
                                 <p className="text-white text-center">Este es el último producto que se añadió a la base de datos de Hedwig.</p>
