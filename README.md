@@ -1,5 +1,7 @@
 # Hedwig Dashboard
 
+### [Link to the project](https://hedwig-dashboard.web.app/)
+
 ## Welcome!
 This is a project working with [React.js](https://reactjs.org/). I've also used [Material UI](https://mui.com/) and [Chart.js](https://www.chartjs.org/). All the data is taken by the [Hedwig API (See documentation)](https://app.swaggerhub.com/apis/AlanRacciatti/Hedwig-api/1.0.1)
 
