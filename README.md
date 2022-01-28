@@ -33,7 +33,7 @@ Right now I'm not actively working on this project, however, I might change some
 ### Contributing
 Are you interested in adding new features to the client? Your ideas are always welcome, for any change you want to do just make a pull request or for major changes try making an issue, help is my best friend :)
 ### Authors and acknowledgement
-This project is part of the [Digital House's Full Stack Web Development Bootcamp](https://www.digitalhouse.com/ar/curso/programacion-web-full-stack). I've to mention also my group whose contributions made this app ([and Hedwig Ecommerce](https://libreria-hedwig.herokuapp.com/)) possible: 
+This project is part of the [Digital House's Full Stack Web Development Bootcamp](https://www.digitalhouse.com/ar/curso/programacion-web-full-stack). I've to mention also my group whose contributions made this app ([and Hedwig Ecommerce](https://libreriahedwig.herokuapp.com/)) possible: 
 
 - [Alex Racciatti](https://github.com/AlexRacciatti)
 - [Lucía Riva](https://github.com/LuciaRiva)

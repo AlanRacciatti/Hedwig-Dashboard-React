@@ -6,7 +6,7 @@ const Topbar = () => {
         <ul className="navbar-nav ml-auto">
 
             <li className="nav-item dropdown no-arrow">
-                <a className="nav-link dropdown-toggle" href="https://libreria-hedwig.herokuapp.com" id="userDropdown">
+                <a className="nav-link dropdown-toggle" href="https://libreriahedwig.herokuapp.com" id="userDropdown">
                     <button className="btn btn-primary border-0 bg-hedwig-sec">Volver a hedwig</button>
                 </a>
             </li>

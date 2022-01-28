@@ -2,7 +2,7 @@ import React from 'react'
 
 const UltimoProducto = (props) => {
     let rutaImagen = props.ultimoProducto.ultimoProducto[0].imagen
-    let rutaProducto = "https://libreria-hedwig.herokuapp.com/products/detalles/" + props.ultimoProducto.ultimoProducto[0].id
+    let rutaProducto = "https://libreriahedwig.herokuapp.com/products/detalles/" + props.ultimoProducto.ultimoProducto[0].id
     return (
         <div className="col-lg-3 mb-4 text-center">
             <div className="card shadow mb-4 bg-hedwig text-center h-100">

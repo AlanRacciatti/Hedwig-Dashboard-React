@@ -1,7 +1,7 @@
 import React from 'react'
 
 function CardCategory(props) {
-    let rutaBusqueda = "https://libreria-hedwig.herokuapp.com/products/genero/?categoria=" + props.categoria + "&id=" + props.id
+    let rutaBusqueda = "https://libreriahedwig.herokuapp.com/products/genero/?categoria=" + props.categoria + "&id=" + props.id
     return (
         <a target="_blank" rel="noreferrer" href={rutaBusqueda} className="col-lg-6 mb-4 link-hedwig">
             <div className="card shadow">
