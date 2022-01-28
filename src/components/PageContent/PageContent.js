@@ -23,7 +23,7 @@ const ContenidoPagina = () => {
 
 	useEffect(() => {
 
-		fetch("https://libreria-hedwig.herokuapp.com/users/api/v1/ultimoUsuario")
+		fetch("https://libreriahedwig.herokuapp.com/users/api/v1/ultimoUsuario")
 		.then(res => res.json())
 		.then(res => { setUltimoUsuario({ ultimoUsuario: res }) })
 
@@ -31,7 +31,7 @@ const ContenidoPagina = () => {
 
 	useEffect(() => {
 
-		fetch("https://libreria-hedwig.herokuapp.com/products/api/v1/ultimoProducto")
+		fetch("https://libreriahedwig.herokuapp.com/products/api/v1/ultimoProducto")
 		.then(res => res.json())
 		.then(res => { setUltimoProducto({ ultimoProducto: res }) })
 
@@ -39,7 +39,7 @@ const ContenidoPagina = () => {
 
 	useEffect(() => {
 
-		fetch("https://libreria-hedwig.herokuapp.com/users/api/v1/info")
+		fetch("https://libreriahedwig.herokuapp.com/users/api/v1/info")
 		.then(res => res.json())
 		.then(res => { setCantUsuarios({ cantUsuarios: res.count.cantidadUsuarios}) })
 		.catch(() => setErrors({ hasError: true }))
@@ -48,7 +48,7 @@ const ContenidoPagina = () => {
 
 	useEffect(() => {
 
-		fetch("https://libreria-hedwig.herokuapp.com/products/api/v1/info")
+		fetch("https://libreriahedwig.herokuapp.com/products/api/v1/info")
 		.then(res => res.json())
 		.then(res => { 
 

@@ -8,18 +8,15 @@ const Charts = () => {
 
     useEffect(() => {
 
-        fetch("https://libreria-hedwig.herokuapp.com/products/api/v1/topAutores")
+        fetch("https://libreriahedwig.herokuapp.com/products/api/v1/topAutores")
         .then(res => res.json())
         .then(res => setAutores({ autores: res }))
 
-        fetch("https://libreria-hedwig.herokuapp.com/products/api/v1/topLibros")
+        fetch("https://libreriahedwig.herokuapp.com/products/api/v1/topLibros")
         .then(res => res.json())
         .then(res => setLibros({ libros: res }))
 
     }, [])
-
-    console.log(libros)
-
 
     const labelsAutores = []
     const labelsLibros = []
